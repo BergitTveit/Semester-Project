@@ -1,18 +1,20 @@
 body{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-header{
-    display: flex;
-    align-items: center;
-}
-h1{
-    color: blue;
-}
-h2{
-    color: blueviolet;
 
 }
-p{
-    color: black;
-}
+
+:root {
+    --main-col: #121923;
+    --text-col: #fff;
+    --accent-col: #ff6600;
+    --img-shadow: rgba(0, 0, 0, 0.7);
+    --cta-col: rgba(255, 255, 255, 0.05);
+    --cta-img-col: rgba(255, 255, 255, 0.3);
+    --cta-shadow: rgba(0, 0, 0, 0.35);
+    --banners-col: rgba(255, 255, 255, 0.05);
+    --cta-header-col: rgba(184, 107, 35, 0.35);
+  }
+
+
+
