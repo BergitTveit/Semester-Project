@@ -20,29 +20,22 @@ h1 {
 
 .mainevent {
   display: flex;
-
+  background-color: var(--main-col);
+  max-height: 300px;
   align-items: center;
 }
+
 .entermain {
   flex: 1;
-  height: 300px;
   padding: 10px 50px;
-  background-color: var(--main-col);
 }
 
-.imgmain {
+.event-img {
   flex: 2;
 }
-.imgmain img {
-}
 
-.image-container {
-  width: auto;
+.event-img img {
+  width: 100%;
   max-height: 300px;
   overflow: hidden;
-}
-
-.image-container img {
-  width: 100%;
-  height: auto;
 }
