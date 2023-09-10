@@ -2,11 +2,14 @@ body {
   background-color: rgb(255, 255, 255);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+h1 {
+  color: var(--accent-col);
+}
 
 :root {
-  --main-col: #121923;
-  --text-col: #fff;
-  --accent-col: #ff6600;
+  --main-col: #31738b;
+  --text-col: lack;
+  --accent-col: white;
   --img-shadow: rgba(0, 0, 0, 0.7);
   --cta-col: rgba(255, 255, 255, 0.05);
   --cta-img-col: rgba(255, 255, 255, 0.3);
@@ -17,21 +20,24 @@ body {
 
 .mainevent {
   display: flex;
+
   align-items: center;
 }
 .entermain {
   flex: 1;
+  height: 300px;
+  padding: 10px 50px;
+  background-color: var(--main-col);
 }
 
 .imgmain {
   flex: 2;
 }
 .imgmain img {
-  display: block;
 }
 
 .image-container {
-  max-width: 900px;
+  width: auto;
   max-height: 300px;
   overflow: hidden;
 }
@@ -39,5 +45,4 @@ body {
 .image-container img {
   width: 100%;
   height: auto;
-  object-fit: fill;
 }
