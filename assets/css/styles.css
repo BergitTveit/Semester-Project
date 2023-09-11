@@ -5,10 +5,11 @@ body {
 
 :root {
   --main-col: #31738b;
-  --text-col: lack;
+  --text-col: black;
   --accent-col: white;
+  --exhibit-bar-col: rgb(12, 12, 69);
   --img-shadow: rgba(0, 0, 0, 0.7);
-  --cta-col: rgba(255, 255, 255, 0.05);
+  --cta-col: rgb(5, 15, 49);
   --cta-img-col: rgba(255, 255, 255, 0.3);
   --cta-shadow: rgba(0, 0, 0, 0.35);
   --banners-col: rgba(255, 255, 255, 0.05);
@@ -43,6 +44,30 @@ h1 {
   overflow: hidden; /* need to figure out scaling and cropping */
 }
 
+/*Exhibition listed on exhibit page*/
+.exhibition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enterexhibition {
+  width: 100%;
+  flex: 1;
+
+  background-color: var(--exhibit-bar-col);
+  text-align: center;
+}
+
+.exhibition-img {
+  flex: 1;
+}
+
+.exhibition-img img {
+  width: 100%;
+
+  /* need to figure out scaling and cropping */
+}
 /* Collection links with images */
 .collection {
   display: flex;
