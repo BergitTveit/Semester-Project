@@ -17,8 +17,22 @@ body {
 }
 
 /*Text colours */
-h1 {
+h1,
+h2 {
   color: var(--accent-col);
+}
+/*cover museum shaping */
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cropped-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
 }
 
 /* Main Exhibition codes and work in progress */
@@ -51,24 +65,77 @@ h1 {
   object-position: 30% 50%;
 }
 
-.aevent-img img {
-  width: 100%;
-  max-height: 300px;
-  overflow: hidden; /* need to figure out scaling and cropping */
-}
-
-/*cover museum shaping */
-.cover {
+/* Collection links with images */
+.collection {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
+  text-align: center;
 }
 
-.cropped-image {
+.collection-imgs {
+  display: flex;
+
+  justify-content: center;
+  gap: 20px;
+  max-height: 250px;
+  overflow: hidden;
+}
+.image-container {
+  position: relative;
   width: 100%;
-  max-height: 400px;
+}
+.collection-imgs img {
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 1/1;
   object-fit: cover;
+  border-radius: 2%;
+}
+.collection-imgs a {
+  width: 100%;
+  text-align: center;
+  display: block;
+
+  background-color: var(--main-col);
+  padding: 5px 10px;
+  border-radius: 2%;
+}
+/*Break up into divs or add classes directly to a's to not have continuosly line*/
+.apositionVR {
+  object-position: 75% 0%;
+}
+.apositionheart {
+  object-position: 25% 0%;
+}
+.apositioncosmo {
+  object-position: 30% 0%;
+}
+.apositionmammoth {
+  object-position: 0%;
+}
+
+.collection-tags {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+.image-container a {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*Young stars club */
+.club {
+  display: flex;
+}
+.club-img {
+  flex: 1;
+}
+.club-enter {
+  flex: 1;
+  background-color: var(--main-col);
 }
 
 /*Exhibition listed on exhibit page*/
@@ -98,31 +165,4 @@ h1 {
 .cropped-image {
   width: 100%;
   height: auto;
-}
-
-/* Collection links with images */
-.collection {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-}
-
-.collection-imgs {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.collection-imgs img {
-  max-width: 350px;
-  margin: 3%;
-}
-.collection-tags {
-  flex: 2;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 10px;
 }
