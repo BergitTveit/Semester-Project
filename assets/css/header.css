@@ -34,10 +34,14 @@ nav {
   flex-direction: row;
 }
 
-.nav-items p {
+.nav-items a {
   font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 2px;
   margin: 10px;
   padding: 5px 10px;
+  text-decoration: none;
+  color: black;
 }
 
 .search-input {
