@@ -9,11 +9,7 @@ body {
   --accent-col: white;
   --lines: rgb(0, 0, 0);
   --img-shadow: rgba(0, 0, 0, 0.7);
-  --cta-col: rgb(5, 15, 49);
-  --cta-img-col: rgba(255, 255, 255, 0.3);
-  --cta-shadow: rgba(0, 0, 0, 0.35);
-  --banners-col: rgba(255, 255, 255, 0.05);
-  --cta-header-col: rgba(184, 107, 35, 0.35);
+  --exhibition-col: rgb(1, 14, 56);
 }
 
 /*Text colours */
@@ -138,30 +134,40 @@ h2 {
 }
 
 /*Exhibition listed on exhibit page*/
-.exhibition {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.enterexhibition {
-  width: 100%;
-  flex: 1;
-  background-color: var(--exhibit-bar-col);
-  text-align: center;
-}
 
 .exhibition-img {
-  flex: 1;
   display: flex;
-  align-items: center;
-  justify-content: center;
   max-height: 300px;
   overflow: hidden;
   width: 100%;
+ 
+}
+.exhibition-img img{
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover; 
+
+}
+.enterexhibition {
+  width: 100%;
+  background-color: var(--exhibition-col);
+  text-align: center;
 }
 
+
+
+
+
+
+/*copy::: for remembering
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
 .cropped-image {
   width: 100%;
-  height: auto;
+  max-height: 400px;
+  object-fit: cover;
 }
