@@ -1,2 +1,28 @@
 @media (max-width: 700px) {
+  .grid-container {
+    grid-template-areas:
+      "img1"
+      "link1"
+      "img2"
+      "link2" "img3"
+      "link3"
+      "img4"
+      "link4";
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, auto);
+  }
+  .img {
+    width: 100%;
+    position: relative;
+  }
+
+  .grid-container a {
+    color: var(--accent-col);
+    background-color: var(--main-col);
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 2em;
+    font-weight: 500;
+  }
 }
