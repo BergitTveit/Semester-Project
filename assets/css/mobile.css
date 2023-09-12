@@ -1,4 +1,9 @@
 @media (max-width: 700px) {
+  .cover {
+    max-height: 150px;
+    justify-content: center;
+  }
+
   .grid-container {
     grid-template-areas:
       "img1"
@@ -24,5 +29,8 @@
     display: block;
     font-size: 2em;
     font-weight: 500;
+  }
+  .mainevent {
+    flex-direction: column;
   }
 }
