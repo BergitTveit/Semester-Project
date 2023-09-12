@@ -7,7 +7,7 @@ body {
   --main-col: #31738b;
   --text-col: black;
   --accent-col: white;
-  --exhibit-bar-col: rgb(12, 12, 69);
+  --lines: rgb(0, 0, 0);
   --img-shadow: rgba(0, 0, 0, 0.7);
   --cta-col: rgb(5, 15, 49);
   --cta-img-col: rgba(255, 255, 255, 0.3);
@@ -63,6 +63,17 @@ h2 {
   height: 300px;
   object-fit: cover;
   object-position: 30% 50%;
+}
+/*Border for information text*/
+
+.info-box {
+  border: 3px solid black;
+  padding: 2%;
+  margin: 3%;
+  font-size: 1.5em;
+}
+.info-box h3 {
+  text-align: center;
 }
 
 /* Collection links with images */
