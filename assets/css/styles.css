@@ -82,6 +82,9 @@ h2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-row: repeat(2, 1fr);
+  grid-template-areas:
+    "img1 img2 img3 img4"
+    "link1 link2 link3 link4";
   gap: 10px;
   text-align: center;
   justify-content: space-between;
@@ -101,7 +104,37 @@ h2 {
   font-size: 2em;
   font-weight: 500;
 }
+.img1 {
+  grid-area: img1;
+}
 
+.link1 {
+  grid-area: link1;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+.link2 {
+  grid-area: link2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.link3 {
+  grid-area: link3;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.link4 {
+  grid-area: link4;
+}
 /*Young stars club */
 .club {
   display: flex;
@@ -140,34 +173,14 @@ h2 {
   max-height: 300px;
   overflow: hidden;
   width: 100%;
- 
 }
-.exhibition-img img{
+.exhibition-img img {
   width: 100%;
   max-height: 100%;
-  object-fit: cover; 
-
+  object-fit: cover;
 }
 .enterexhibition {
   width: 100%;
   background-color: var(--exhibition-col);
   text-align: center;
-}
-
-
-
-
-
-
-/*copy::: for remembering
-.cover {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
-}
-.cropped-image {
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
 }
