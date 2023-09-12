@@ -1,6 +1,7 @@
 body {
   background-color: rgb(255, 255, 255);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
 }
 
 :root {
@@ -104,6 +105,9 @@ h2 {
   display: block;
   font-size: 2em;
   font-weight: 500;
+}
+.grid-container a:hover {
+  background-color: var(--img-shadow);
 }
 .img1 {
   grid-area: img1;
