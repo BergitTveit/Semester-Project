@@ -85,6 +85,20 @@ h2 {
 }
 .info-box h3 {
   text-align: center;
+  margin-bottom: 20px;
+}
+.box-paragraph {
+  display: flex;
+  padding: 10px;
+}
+.paragraph-r {
+  flex: 1;
+}
+.paragraph-l {
+  flex: 1;
+}
+.box-paragraph div {
+  flex: 1;
 }
 
 /* Collection links with images */
