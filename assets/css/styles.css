@@ -11,12 +11,20 @@ body {
   --lines: rgb(0, 0, 0);
   --img-shadow: rgba(0, 0, 0, 0.7);
   --exhibition-col: rgb(1, 14, 56);
+  --menu-speed: 0.75s;
 }
 
 /*Text colours */
 h1,
 h2 {
   color: var(--accent-col);
+}
+/*header*/
+.desktop-nav {
+  display: block;
+}
+.mobile-nav {
+  display: none;
 }
 /*cover museum shaping */
 .cover {
