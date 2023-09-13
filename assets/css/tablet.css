@@ -110,4 +110,28 @@
     background-color: var(--exhibition-col);
     text-align: center;
   }
+  /*form*/
+  .form-position {
+    position: absolute;
+    top: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+      "img1 img2" "img3 img4"
+      "link1 link2" "link3 link4"
+      "link5 link5";
+    gap: 10px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .link5 {
+    grid-column: 1 / span 2;
+  }
 }
