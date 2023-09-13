@@ -27,7 +27,7 @@ nav {
 .bottom-row {
   display: flex;
   align-items: center;
-  justify-content: right;
+  justify-content: flex-end;
   margin-left: 10px;
 }
 .bottom-row {
@@ -35,7 +35,7 @@ nav {
 }
 
 .nav-items a {
-  font-size: 1.5em;
+  font-size: 4vh;
   font-weight: bold;
   letter-spacing: 2px;
   margin: 10px;
@@ -47,11 +47,12 @@ nav {
 .search-input {
   width: 40%;
   max-width: 250px;
+  height: auto;
   margin-right: 20px;
-  padding: 10px;
+  padding: 2%;
   border: 1px solid #000000;
   border-radius: 7px;
-  font-size: 16px;
+  font-size: 3.5vh;
   color: #333;
 }
 
