@@ -20,7 +20,13 @@
     position: fixed;
     left: 5%;
   }
-
+  .mobile-nav .search-input {
+    width: 70%;
+    height: 25px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 7%;
+  }
   .cover {
     margin-top: 70px;
     max-height: 150px;

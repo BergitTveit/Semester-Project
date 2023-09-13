@@ -115,7 +115,7 @@
 .menu-wrap .menu > div {
   background: var(--main-col);
   width: 40vw;
-  height: 60vw;
+  height: 100vw;
   display: flex;
   flex: none;
   align-items: center;
