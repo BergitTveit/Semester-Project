@@ -1,5 +1,5 @@
 .button {
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   text-decoration: none;
   text-shadow: -3px 5px 10px rgba(255, 255, 255, 0.5);
@@ -7,7 +7,10 @@
   font-size: 1.5em;
   font-weight: bold;
   background-color: #31738b;
-  width: 150px;
+  margin-top: 0;
+  margin: 50px;
+  width: 200px;
+  max-height: 100px;
   border-radius: 20px;
   box-shadow: -3px 5px 10px rgba(39, 47, 58, 0.7);
 }

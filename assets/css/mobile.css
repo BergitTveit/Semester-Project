@@ -63,4 +63,13 @@
   .mainevent {
     flex-direction: column;
   }
+
+  .box-paragraph {
+    flex-direction: column;
+  }
+  .paragraph-l,
+  .paragraph-r {
+    flex: auto;
+    width: 100%;
+  }
 }
