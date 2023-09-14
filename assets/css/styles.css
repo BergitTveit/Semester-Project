@@ -179,6 +179,13 @@ input[type="radio"]:checked + .ticket-option {
 label[for="quantity"] {
   display: none;
 }
+legend {
+  display: none;
+}
+fieldset {
+  border: none;
+}
+
 /* Collection links with images */
 .grid-container {
   display: grid;
