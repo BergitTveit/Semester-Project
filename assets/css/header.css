@@ -42,6 +42,17 @@ nav {
   text-decoration: none;
   color: black;
 }
+li {
+  display: inline-block;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-one {
+  flex: 1;
+}
 
 .search-input {
   max-width: 250px;
