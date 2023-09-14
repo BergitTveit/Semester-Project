@@ -7,6 +7,7 @@ nav {
 
 .logo {
   flex: 1;
+  max-width: 70%;
 }
 
 .logo img {
@@ -35,7 +36,6 @@ nav {
 }
 
 .nav-items a {
-  font-size: 4vh;
   font-weight: bold;
   letter-spacing: 2px;
   margin: 10px;
@@ -52,7 +52,7 @@ nav {
   padding: 2%;
   border: 1px solid #000000;
   border-radius: 7px;
-  font-size: 3.5vh;
+
   color: #333;
 }
 
