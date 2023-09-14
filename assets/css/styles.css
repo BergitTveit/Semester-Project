@@ -16,21 +16,23 @@ body {
 }
 
 /*Text colours */
+h1 {
+  margin-bottom: 2%;
+}
 h1,
 h2 {
   color: var(--accent-col);
+}
+.h-styling {
+  color: var(--text-col);
+  text-transform: uppercase;
+  text-align: center;
 }
 h1 a {
   text-decoration: none;
   color: var(--accent-col);
 }
-/*header*/
-.desktop-nav {
-  display: block;
-}
-.mobile-nav {
-  display: none;
-}
+
 /*cover museum shaping */
 .cover {
   display: flex;
@@ -196,7 +198,7 @@ label[for="quantity"] {
   padding: 10px;
   text-decoration: none;
   display: block;
-  font-size: 2em;
+
   font-weight: 500;
 }
 .grid-container a:hover {
@@ -257,6 +259,7 @@ label[for="quantity"] {
 }
 
 .club-enter {
+  text-decoration: none;
   flex: 1;
   background-color: var(--main-col);
   display: flex;
