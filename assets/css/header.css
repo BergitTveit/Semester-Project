@@ -64,11 +64,14 @@ footer {
 
   color: #333;
 }
-
+label[for="search-input"] {
+  display: none;
+}
 .search-input::placeholder {
   color: #999;
   opacity: 0.7;
 }
+
 /*header media query*/
 .desktop-nav {
   display: block;
