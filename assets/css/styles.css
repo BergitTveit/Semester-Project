@@ -77,14 +77,18 @@ a {
 /*Border for information text*/
 
 .info-box {
-  border: 3px solid var(--black);
+  border: 3px solid black;
   padding: 2%;
   margin-top: 50px;
   margin-bottom: 50px;
   font-size: 1.5em;
 }
 .info-box h3 {
-  margin: 20px;
+  text-align: center;
+}
+.box-paragraph {
+  display: flex;
+  padding: 10px;
 }
 
 .paragraph {
@@ -95,14 +99,12 @@ a {
   align-items: flex-start;
   margin-right: 5%;
 }
-
 /*form*/
 .form-box {
   border: 3px solid var(--black);
 }
 
 .form-container {
-  composes: grid-container;
   height: 100%;
   width: 100%;
   display: grid;
