@@ -20,7 +20,7 @@
   .mobile-nav .logo img {
     max-height: 50px;
     width: 80%;
-    position: fixed;
+    position: relative;
     left: 5%;
   }
   .mobile-nav .search-input {
@@ -49,25 +49,12 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, auto);
   }
-
-  .img {
-    width: 100%;
-    position: relative;
-  }
-
-  .grid-container a {
-    color: var(--accent-col);
-    background-color: var(--main-col);
-    padding: 10px;
-    text-decoration: none;
-    display: block;
-    font-size: 2em;
-    font-weight: 500;
-  }
+  /*mainevent */
   .mainevent {
     flex-direction: column;
   }
 
+  /*boxes and information*/
   .box-paragraph {
     flex-direction: column;
   }
