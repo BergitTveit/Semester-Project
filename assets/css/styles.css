@@ -6,25 +6,20 @@ body {
 
 :root {
   --main-col: #31738b;
-  --text-col: black;
-  --accent-col: white;
-  --lines: rgb(0, 0, 0);
-  --img-shadow: rgba(0, 0, 0, 0.7);
   --exhibition-col: rgb(1, 14, 56);
+  --accent-col: white;
+  --black: black;
+  --shadow: rgba(0, 0, 0, 0.7);
   --menu-speed: 0.75s;
-  --checked-col: rgba(0, 0, 0, 0.7);
 }
 
 /*Text colours */
 h1 {
+  margin-top: 2%;
   margin-bottom: 2%;
 }
-h1,
-h2 {
-  color: var(--accent-col);
-}
+
 .h-styling {
-  color: var(--text-col);
   text-transform: uppercase;
   text-align: center;
 }
@@ -84,7 +79,7 @@ h1 a {
 /*Border for information text*/
 
 .info-box {
-  border: 3px solid black;
+  border: 3px solid var(--black);
   padding: 2%;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -110,7 +105,7 @@ h1 a {
 
 /*form*/
 .form-box {
-  border: 3px solid black;
+  border: 3px solid var(--black);
 }
 .form-container {
   height: 100%;
@@ -134,35 +129,35 @@ h1 a {
 
 .ticket-option {
   cursor: pointer;
-  color: rgb(255, 255, 255);
+  color: var(--accent-col);
   text-align: center;
   text-decoration: none;
   padding: 10px 20px;
   font-size: 0.7em;
   border-radius: 20px;
   font-weight: bold;
-  background-color: #31738b;
+  background-color: var(--main-col);
   width: auto;
 }
 
 .checkout-button {
   cursor: pointer;
-  color: white;
+  color: var(--accent-col);
   text-align: center;
   text-decoration: none;
   padding: 10px 20px;
   font-size: 0.5em;
   font-weight: bold;
-  background-color: #31738b;
+  background-color: var(--main-col);
   margin-top: 10px;
   width: auto;
   border-radius: 20px;
 }
 .checkout-button:hover {
-  background-color: var(--checked-col);
+  background-color: var(--shadow);
 }
 .ticket-option:hover {
-  background-color: var(--checked-col);
+  background-color: var(--shadow);
 }
 
 input[type="radio"] {
@@ -170,7 +165,7 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked + .ticket-option {
-  background-color: var(--checked-col);
+  background-color: var(--shadow);
 }
 
 .step label {
@@ -214,7 +209,7 @@ fieldset {
   font-weight: 500;
 }
 .grid-container a:hover {
-  background-color: var(--img-shadow);
+  background-color: var(--shadow);
 }
 .img1 {
   grid-area: img1;
