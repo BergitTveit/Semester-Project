@@ -153,17 +153,13 @@ h1 a {
   width: auto;
   border-radius: 20px;
 }
-.checkout-button:hover {
-  background-color: var(--shadow);
-}
-.ticket-option:hover {
-  background-color: var(--shadow);
-}
 
 input[type="radio"] {
   display: none;
 }
 
+.checkout-button:hover,
+.ticket-option:hover,
 input[type="radio"]:checked + .ticket-option {
   background-color: var(--shadow);
 }
