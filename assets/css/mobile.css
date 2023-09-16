@@ -77,4 +77,8 @@
   .link5 {
     grid-column: 1 / span 2;
   }
+  .form-box {
+    justify-content: center;
+    align-items: center;
+  }
 }
