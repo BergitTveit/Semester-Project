@@ -325,7 +325,9 @@ label[for="checkbox"] {
   align-items: flex-start;
   margin-right: 5%;
 }
-
+.space {
+  flex: 1;
+}
 /*form*/
 .form-box {
   border: 3px solid var(--black);
