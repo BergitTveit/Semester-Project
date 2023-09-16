@@ -309,6 +309,11 @@ label[for="checkbox"] {
   margin-bottom: 50px;
   font-size: 1.5em;
 }
+.box-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .info-box h3 {
   text-align: center;
 }
@@ -328,6 +333,19 @@ label[for="checkbox"] {
 .space {
   flex: 1;
 }
+.box-link-button {
+  align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  display: inline-block;
+  background-color: var(--main-col);
+  color: var(--accent-col);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
 /*form*/
 .form-box {
   border: 3px solid var(--black);
@@ -373,6 +391,7 @@ label[for="checkbox"] {
   border-radius: 20px;
   font-weight: bold;
   background-color: var(--main-col);
+  display: inline-block;
 }
 
 .button:hover,
