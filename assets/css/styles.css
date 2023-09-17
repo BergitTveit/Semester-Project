@@ -22,7 +22,7 @@ a {
   padding: 10px;
 }
 .textcol{
-text-col: var(--black);
+color: var(--black);
   
 }
 /*page containers*/
