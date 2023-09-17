@@ -21,6 +21,10 @@ a {
   color: var(--accent-col);
   padding: 10px;
 }
+.textcol{
+text-col: var(--black);
+  
+}
 /*page containers*/
 .page-container {
   margin: 3%;
