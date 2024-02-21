@@ -8,7 +8,7 @@ The aim of the website is to let the user explore the wonders of science with th
 
 ## Built With
 
-The website is developed using VS Code. The repository is hosted on my GitHub profile, and the live version is deployed on [Netlify](https://glittery-eclair-b4f4cf.netlify.app/).
+The website is developed using VS Code. The repository is hosted on my GitHub profile, and the live version is deployed on [Netlify](https://community-science-museum-blt.netlify.app/).
 
 ### Tech Stack
 
@@ -21,8 +21,9 @@ The website is developed using VS Code. The repository is hosted on my GitHub pr
 
 To get started, clone the repo:
 
-<!-- ```bash
-git clone https://github.com/BergitTveit/Semester-Project -->
+```bash
+git clone https://github.com/BergitTveit/Semester-Project
+```
 
 #### Running
 
